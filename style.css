@@ -1,0 +1,66 @@
+body { 
+    background-color: rgb(54, 160, 68);
+ }
+
+ h1 {
+    color: rgb(202, 149, 35);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.Text1 {
+    color: yellow;
+}
+
+.Text2 {
+    color: red;
+}
+
+.Text3 {
+    color: sienna;
+}
+
+.Text4 {
+    color: chocolate;
+}
+
+.Text5 {
+    color: khaki;
+}
+
+.Text6 {
+    color: brown;
+}
+
+.Photo1 {
+    width: 750px;
+    height: 500px;
+    margin-left: 530px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 + p::first-letter {
+    color: darkgray;
+    width: 22px;
+    font-size: 60px;
+}
+
+p {
+    text-transform: lowercase;
+    font-size: 22px;
+    text-shadow: 0.5px 0.5px 0.5px black
+}
+
+p + p::first-letter {
+    color: blueviolet;
+    width: 22px;
+    font-size: 40px;
+  }
